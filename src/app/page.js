@@ -38,7 +38,7 @@ export default function Home() {
         <div className={styles.card}>
             <Link href="/event">
             <Image
-              src="/Capture.jpg"
+              src="/Capture.JPG"
               alt="event 1"
               width={100}
               height={100}
@@ -54,7 +54,7 @@ export default function Home() {
 
         <div className={styles.card}>
           <Image
-            src="/event1.jpg"
+            src="/Capture.JPG"
             alt="event 1"
             width={100}
             height={100}
@@ -66,7 +66,7 @@ export default function Home() {
         </div>
         <div className={styles.card}>
           <Image
-            src="/event1.jpg"
+            src="/Capture.JPG"
             alt="event 1"
             width={100}
             height={100}
@@ -78,7 +78,7 @@ export default function Home() {
         </div>
         <div className={styles.card}>
           <Image
-            src="/event1.jpg"
+            src="/Capture.JPG"
             alt="event 1"
             width={100}
             height={100}
