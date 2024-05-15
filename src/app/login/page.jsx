@@ -1,5 +1,6 @@
+"use client";
 import React from "react";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 export default function Login() {
   const router = useRouter();
@@ -22,7 +23,9 @@ export default function Login() {
           <input type="password" name="password" />
         </label>
         <br />
-        <button type="button" onClick={handleLogin}>Login</button>
+        <button type="button" onClick={handleLogin}>
+          Login
+        </button>
       </form>
     </div>
   );

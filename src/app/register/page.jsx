@@ -1,6 +1,6 @@
-
+"use client";
 import React from "react";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 const Register = () => {
   const router = useRouter();
@@ -28,7 +28,9 @@ const Register = () => {
           <input type="password" name="password" />
         </label>
         <br />
-        <button type="button" onClick={handleRegister}>Register</button>
+        <button type="button" onClick={handleRegister}>
+          Register
+        </button>
       </form>
     </div>
   );
